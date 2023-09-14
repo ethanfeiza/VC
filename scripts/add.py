@@ -3,8 +3,8 @@ import json, os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
-# User can add name and favourite sport in response.json
-# default sport Cricket will be added incase user does not provide fav sport
+# Users can add name and favourite sport in response.json
+# default sport Cricket will be added incase user does not provide favorite sport
 
 
 def load_json():
