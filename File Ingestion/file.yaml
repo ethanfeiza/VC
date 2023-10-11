@@ -1,0 +1,16 @@
+file_type: csv
+dataset_name: artists
+file_name: artists
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - id
+    - name
+    - years
+    - genre
+    - nationality
+    - bio
+    - wikipedia
+    - paintings
